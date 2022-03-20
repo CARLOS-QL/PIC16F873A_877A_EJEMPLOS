@@ -1,0 +1,240 @@
+[p GLOBOPT AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F873A ]
+[d frameptr 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\itoa.c
+[v _itoa itoa `(*.4uc  1 e 1 0 ]
+"17
+[v _utoa utoa `(*.4uc  1 e 1 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"7 E:\EJEMPLOS_YOUTUBE\PIC16F\I2C_24LC256_PIC16F873A\I2C_24LC256_PIC16F873A.X\I2C.h
+[v _I2C_init I2C_init `(v  1 e 1 0 ]
+"18
+[v _I2C_start I2C_start `(v  1 e 1 0 ]
+"24
+[v _I2C_restart I2C_restart `(v  1 e 1 0 ]
+"30
+[v _I2C_stop I2C_stop `(v  1 e 1 0 ]
+"36
+[v _I2C_read I2C_read `(uc  1 e 1 0 ]
+"44
+[v _I2C_ack I2C_ack `(v  1 e 1 0 ]
+"52
+[v _I2C_nack I2C_nack `(v  1 e 1 0 ]
+"60
+[v _I2C_write I2C_write `(uc  1 e 1 0 ]
+"18 E:\EJEMPLOS_YOUTUBE\PIC16F\I2C_24LC256_PIC16F873A\I2C_24LC256_PIC16F873A.X\LCD.c
+[v _LCD_init LCD_init `(v  1 e 1 0 ]
+"48
+[v _LCD_write LCD_write `(v  1 e 1 0 ]
+"72
+[v _LCD_cmd LCD_cmd `(v  1 e 1 0 ]
+"88
+[v _LCD_dato LCD_dato `(v  1 e 1 0 ]
+"100
+[v _LCD_printf LCD_printf `(v  1 e 1 0 ]
+"27 E:\EJEMPLOS_YOUTUBE\PIC16F\I2C_24LC256_PIC16F873A\I2C_24LC256_PIC16F873A.X\main.c
+[v _main main `(v  1 e 1 0 ]
+[s S203 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+]
+"182 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f873a.h
+[u S210 . 1 `S203 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES210  1 e 1 @5 ]
+[s S241 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"234
+[u S250 . 1 `S241 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES250  1 e 1 @6 ]
+[s S220 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"296
+[u S229 . 1 `S220 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES229  1 e 1 @7 ]
+[s S68 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+]
+"455
+[u S76 . 1 `S68 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES76  1 e 1 @12 ]
+"709
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @19 ]
+"716
+[v _SSPCON SSPCON `VEuc  1 e 1 @20 ]
+[s S186 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+]
+"1241
+[u S193 . 1 `S186 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES193  1 e 1 @133 ]
+[s S165 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1293
+[u S174 . 1 `S165 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES174  1 e 1 @134 ]
+[s S22 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1355
+[u S31 . 1 `S22 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES31  1 e 1 @135 ]
+"1530
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @145 ]
+[s S47 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"1547
+[u S56 . 1 `S47 1 . 1 0 ]
+[v _SSPCON2bits SSPCON2bits `VES56  1 e 1 @145 ]
+"1599
+[v _SSPADD SSPADD `VEuc  1 e 1 @147 ]
+"1606
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @148 ]
+"2005
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"2160
+[v _ACKSTAT ACKSTAT `VEb  1 e 0 @1166 ]
+"25 E:\EJEMPLOS_YOUTUBE\PIC16F\I2C_24LC256_PIC16F873A\I2C_24LC256_PIC16F873A.X\main.c
+[v _datos datos `[11]uc  1 e 11 0 ]
+"27
+[v _main main `(v  1 e 1 0 ]
+{
+"56
+[v main@i_149 i `uc  1 a 1 10 ]
+"39
+[v main@i i `uc  1 a 1 9 ]
+"72
+} 0
+"18 E:\EJEMPLOS_YOUTUBE\PIC16F\I2C_24LC256_PIC16F873A\I2C_24LC256_PIC16F873A.X\LCD.c
+[v _LCD_init LCD_init `(v  1 e 1 0 ]
+{
+"42
+} 0
+"72
+[v _LCD_cmd LCD_cmd `(v  1 e 1 0 ]
+{
+[v LCD_cmd@dato dato `uc  1 a 1 wreg ]
+[v LCD_cmd@dato dato `uc  1 a 1 wreg ]
+"75
+[v LCD_cmd@dato dato `uc  1 a 1 3 ]
+"77
+} 0
+"88
+[v _LCD_dato LCD_dato `(v  1 e 1 0 ]
+{
+[v LCD_dato@dato dato `uc  1 a 1 wreg ]
+[v LCD_dato@dato dato `uc  1 a 1 wreg ]
+"91
+[v LCD_dato@dato dato `uc  1 a 1 3 ]
+"93
+} 0
+"48
+[v _LCD_write LCD_write `(v  1 e 1 0 ]
+{
+[v LCD_write@dato dato `uc  1 a 1 wreg ]
+[v LCD_write@dato dato `uc  1 a 1 wreg ]
+"50
+[v LCD_write@dato dato `uc  1 a 1 2 ]
+"67
+} 0
+"60 E:\EJEMPLOS_YOUTUBE\PIC16F\I2C_24LC256_PIC16F873A\I2C_24LC256_PIC16F873A.X\I2C.h
+[v _I2C_write I2C_write `(uc  1 e 1 0 ]
+{
+[v I2C_write@I2C_data I2C_data `uc  1 a 1 wreg ]
+[v I2C_write@I2C_data I2C_data `uc  1 a 1 wreg ]
+[v I2C_write@I2C_data I2C_data `uc  1 a 1 0 ]
+"68
+} 0
+"30
+[v _I2C_stop I2C_stop `(v  1 e 1 0 ]
+{
+"34
+} 0
+"18
+[v _I2C_start I2C_start `(v  1 e 1 0 ]
+{
+"22
+} 0
+"24
+[v _I2C_restart I2C_restart `(v  1 e 1 0 ]
+{
+"28
+} 0
+"36
+[v _I2C_read I2C_read `(uc  1 e 1 0 ]
+{
+"42
+} 0
+"52
+[v _I2C_nack I2C_nack `(v  1 e 1 0 ]
+{
+"58
+} 0
+"7
+[v _I2C_init I2C_init `(v  1 e 1 0 ]
+{
+"16
+} 0
+"44
+[v _I2C_ack I2C_ack `(v  1 e 1 0 ]
+{
+"50
+} 0
